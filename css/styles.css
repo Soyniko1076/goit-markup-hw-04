@@ -177,6 +177,10 @@ button {
 .hero {
   padding: 188px 0;
   background-color: var(--dark);
+  background-image: url(../images/people-office-1.png);
+  background-image: width 1440px;
+  background-repeat: no-repeat;
+  background-position: center;
   text-align: center;
 }
 
