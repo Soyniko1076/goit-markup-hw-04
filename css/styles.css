@@ -67,7 +67,7 @@ button {
   width: 1158px;
   margin: 0 auto;
   padding: 0 15px;
-  outline: 1px solid red;
+  outline: 1px dashed red;
   outline-offset: -1px;
 }
 
@@ -265,6 +265,9 @@ button {
 
 /* ------------------------teem----------------------*/
 .teem-section {
+  display: block;
+  max-width: 1440px;
+  margin: 0 auto;
   background-color: var(--light);
 }
 
@@ -361,6 +364,9 @@ button {
 
 /* -----------------------------footer------------------------------- */
 .footer {
+  display: block;
+  max-width: 1440px;
+  margin: 0 auto;
   padding: 100px 0;
   background-color: var(--dark);
 }
