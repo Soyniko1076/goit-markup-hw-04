@@ -273,31 +273,31 @@ button {
   text-transform: capitalize;
 }
 
-/* ------------------------teem----------------------*/
-.teem-section {
+/* ------------------------team----------------------*/
+.team-section {
   display: block;
   max-width: 1440px;
   margin: 0 auto;
   background-color: var(--light);
 }
 
-.teem-list {
+.team-list {
   display: flex;
   gap: var(--indent);
   --items: 4;
 }
 
-.teem-list-item {
+.team-list-item {
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16),
     0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
-.teem-wrapper {
+.team-wrapper {
   padding: 32px 16px;
   border-radius: 0px 0px 4px 4px;
   background-color: var(--primary-background);
 }
-.teem-list-name {
+.team-list-name {
   margin-bottom: 8px;
   font-weight: 500;
   font-size: 20px;
@@ -306,7 +306,7 @@ button {
   text-align: center;
 }
 
-.teem-list-profession {
+.team-list-profession {
   margin-bottom: 8px;
   color: var(--text);
   line-height: 1.5;
@@ -342,6 +342,7 @@ button {
   display: flex;
   gap: var(--indent);
   justify-content: center;
+  align-items: center;
 }
 
 .customers-item {
@@ -379,7 +380,6 @@ button {
   border: 1px solid var(--accent);
   background-color: var(--light);
   color: var(--primary-brand);
-
   font-weight: 500;
   font-size: 16px;
   font-family: inherit;
@@ -426,12 +426,25 @@ button {
 }
 
 /* -----------------------------footer------------------------------- */
-.footer {
-  display: block;
+.footer-section {
   max-width: 1440px;
   margin: 0 auto;
   padding: 100px 0;
   background-color: var(--dark);
+}
+
+.footer-container {
+  display: flex;
+  gap: 120px;
+  width: 1158px;
+  margin: 0 auto;
+  padding: 0 15px;
+  outline: 1px dashed red;
+  outline-offset: -1px;
+}
+
+.media-footer {
+  margin-right: auto;
 }
 
 .footer-logo {
@@ -453,4 +466,38 @@ button {
   width: 264px;
   color: var(--accent);
   line-height: 1.5;
+}
+
+.media-title {
+  margin-bottom: 8px;
+  color: var(--primary-background);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  text-align: left;
+}
+.media-list {
+  display: flex;
+  gap: 16px;
+}
+
+.footer-soc-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.1);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.footer-soc-link:hover,
+.footer-soc-link:focus {
+  background-color: var(--success);
+}
+
+.footer-soc-icon {
+  fill: var(--light);
 }
