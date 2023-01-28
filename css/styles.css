@@ -237,6 +237,14 @@ button {
 .advantages-item {
   width: 264px;
 }
+
+.advantages-inner {
+  padding: 24px 100px;
+  background-color: var(--light);
+  margin-bottom: 8px;
+  border-radius: 4px;
+}
+
 .advantages-slogan {
   margin-bottom: 8px;
   font-weight: 500;
