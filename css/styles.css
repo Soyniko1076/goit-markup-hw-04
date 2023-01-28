@@ -302,10 +302,26 @@ button {
   color: var(--text);
   line-height: 1.5;
   text-align: center;
+  margin-bottom: 8px;
 }
 
-.soc-list {
-  margin-top: 8px;
+.soc-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  background-color: var(--primary-brand);
+  border-radius: 50%;
+}
+
+.soc-link:hover,
+.soc-link:focus {
+  background-color: var(--pressed-state);
+}
+
+.soc-icon {
+  fill: var(--light);
 }
 /*----------------------PORTFOLIO------------------ */
 
